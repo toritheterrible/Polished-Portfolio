@@ -1,0 +1,39 @@
+
+#profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    color: white;
+    margin-left: 25px;
+ 
+}
+
+#profileCard {
+    border-radius: 20%;
+    background-color: rgba(11, 19, 43, 0.5);
+    color: white;
+
+    
+}
+
+#pageColor {
+    background-color: #3A506B;
+}
+
+#navColor {
+    background-color: #0B132B;
+}
+
+img {
+   
+    width: 100px;
+    height: 500px;
+}
+
+h1 {
+    color: white;
+}
+
+.colorIcon {
+    color: white;
+}
