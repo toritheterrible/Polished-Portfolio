@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
   </head>
 
 <body id="pageColor">
@@ -29,15 +29,15 @@
   <nav id="navColor" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
     <div class="uk-navbar-center">
         <ul class="uk-navbar-nav uk-padding">
-          <li class="uk-active-primary"><a href="#">About Me</a></li>
-          <li class="uk-active-primary"><a href="#">Portfolio</a></li>
-          <li class="uk-active-primary"><a href="#">Contact Me</a></li>
+          <li class="uk-active-primary"><a id="font" href="#">About Me</a></li>
+          <li class="uk-active-primary"><a id="font" href="#">Portfolio</a></li>
+          <li class="uk-active-primary"><a id="font" href="#">Contact Me</a></li>
         </ul>
     </div>
   </nav>
     
-   <div class="uk-section">
-    <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image: url('background.jpg');">  
+   <div class="uk-section"></div>
+    <div id="background" class="uk-background-cover uk-background-blend-multiply uk-background-center-center " style="background-image: url('background.jpg');">  
   
       <div class="uk-container">
       
@@ -66,35 +66,60 @@
 
 
 
-<div class="uk-section uk-text-center">
-
-  <h1>Contact Me</h1>
-  <a uk-icon="icon: google; ratio: 2"  class="uk-icon-text uk-padding colorIcon" href="#"></a>
-  <a uk-icon="icon: linkedin; ratio: 2" class="uk-icon-text uk-padding colorIcon" href="www.linkedin.com/in/toribromma" target="_blank"></a>
-  <a uk-icon="icon: github; ratio: 2" class="uk-icon-text uk-padding colorIcon" href="https://github.com/toritheterrible" target="_blank"></a>
-
-</div>
-
-
-
-
-
-      <div class="uk-section uk-text-center">
-        <div class="uk-container">
-            <h1 class="uk-padding">Portfolio</h1>
-          <div class="fade">
-            <img src="weeklymealplanner.png">
-            <img src="weatherdashboard.png">
-            <img src="passwordgenerator.png">
-          </div>
+          
+          <div class="uk-section">
+            <h1 class="uk-padding uk-text-center">Portfolio</h1>
+            <div class="uk-container">
+              
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+            
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img class="uk-padding-large uk-margin-large" src="weeklymealplanner.png" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Weekly Meal Planner</h3>
+                        <p class="uk-margin-remove">link:</p>
+                    </div>
+                </li>
+                <li>
+                    <img class="uk-padding-large uk-margin-large" src="weatherdashboard.png" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Weather Dashboard</h3>
+                        <p class="uk-margin-remove">link:</p>
+                    </div>
+                </li>
+                <li>
+                    <img class="uk-padding-large uk-margin-large" src="passwordgenerator.png" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+                        <h3 class="uk-margin-remove">Password Generator</h3>
+                        <p class="uk-margin-remove">link:</p>
+                    </div>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>
 
         </div>
     
     </div>
+
+
+
+
          
           
 
-        
+    <div class="uk-section uk-text-center">
+
+      <h1>Contact Me</h1>
+      <a uk-icon="icon: google; ratio: 2"  class="uk-icon-text uk-padding colorIcon" id="emailButton" ></a>
+      <a uk-icon="icon: linkedin; ratio: 2" class="uk-icon-text uk-padding colorIcon" href="http://linkedin.com/in/toribromma" target="_blank"></a>
+      <a uk-icon="icon: github; ratio: 2" class="uk-icon-text uk-padding colorIcon" href="https://github.com/toritheterrible" target="_blank"></a>
+    
+    </div>
 
       
 

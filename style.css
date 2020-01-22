@@ -2,16 +2,19 @@
 #profile {
     width: 150px;
     height: 150px;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     color: white;
     margin-left: 25px;
  
 }
 
 #profileCard {
-    border-radius: 20%;
+    /* border-radius: 20%; */
     background-color: rgba(11, 19, 43, 0.5);
     color: white;
+    -webkit-box-shadow: 1px 10px 46px 9px rgba(0,0,0,0.87);
+-moz-box-shadow: 1px 10px 46px 9px rgba(0,0,0,0.87);
+box-shadow: 1px 10px 46px 9px rgba(0,0,0,0.87);
 
     
 }
@@ -37,3 +40,16 @@ h1 {
 .colorIcon {
     color: white;
 }
+
+#pic {
+    width:  200px;
+    height: 200px;
+}
+
+#font, p, .uk-section, li, ul, h1, h2, h3, h4 {
+    font-family: 'Bangers', cursive;
+    color: white;
+  
+}
+
+

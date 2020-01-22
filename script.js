@@ -1,35 +1,16 @@
 
 $(document).ready(function(){
-$('.fade').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 3,
-    //       slidesToScroll: 3,
-    //       infinite: true,
-    //       dots: true
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 2
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1
-    //     }
-    //   }
-    // ]
-  });
+
+// var apiKey = AIzaSyACvO2iyRwq2tCmbCDxszmbPMPDT5xwz6Y;
+
+$("#emailButton").on("click", () => {
+
+  
+  window.open('mailto:toribromma@gmail.com?subject=subject&body=body');
+
+})
+
+
+
+
 });
